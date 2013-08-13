@@ -1,5 +1,3 @@
-AGAppRelaunch
-
 AGApplicationMoved
 =============
 
@@ -13,6 +11,9 @@ will throw an exception because the nib file can't be found.)
 When the application is moved, AGApplicationMoved will display a modal dialog notifying
 the user of impending doom and present them with the choice to either continue or quit
 and relaunch the application.
+
+
+![Screenshot](https://github.com/swillits/AGApplicationMoved/raw/master/Screenshot.png)
 
 
 Usage
@@ -39,7 +40,11 @@ whether 1) the user is allowed to continue without quitting, and 2) whether or n
 the default "quit" choice in the dialog should also relaunch the application.
 
 
-![Screenshot](https://github.com/swillits/AGApplicationMoved/raw/master/Screenshot.png)
+
+AGAppRelaunch
+=============
+Included is AGAppRelaunch, a tiny helper tool that will wait until the given app
+has terminated and will relaunch it. Useful on its own.
 
 
 
